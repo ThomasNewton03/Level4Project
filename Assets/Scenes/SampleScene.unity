@@ -3474,12 +3474,16 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 190533824}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 923705fd2e3122141b9fb96ff80566c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cubePrefab: {fileID: 190533824}
+  colCube: {fileID: 0}
+  material: []
+  rend: {fileID: 0}
+  currentPoints: []
+  targetPoints: []
 --- !u!1 &192185861
 GameObject:
   m_ObjectHideFlags: 0
