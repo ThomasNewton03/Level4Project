@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <CylinderTarget name="test_cylinder" sideLength="0.270000"/>
+  </Tracking>
+</QCARConfig>
