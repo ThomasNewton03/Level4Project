@@ -6,14 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 0
     path: "Assets/Samples/Meta XR Interaction \u200BSDK/68.0.2/Example Scenes/ComprehensiveRigExample.unity"
     guid: 2efe93cb8972cae439bfba2dcd4165f0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Cylinder Scene.unity
     guid: 4a33c60b9d0e7f640af366b0bb293651
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/NewScene.unity
+    guid: 174cb3faae23eaa44806fd27823e79c7
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 0f1baf9e8856a9a4b968b7e3d602be46, type: 2}
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 1118c6c9fb117e6488399b8d06a0c139, type: 2}
