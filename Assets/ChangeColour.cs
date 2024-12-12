@@ -24,7 +24,7 @@ public class ChangeColour : MonoBehaviour
             Debug.Log("collision has happened!");
         }
         else {
-            rend.sharedMaterial = material[0];
+            rend.sharedMaterial = material[2];
             Debug.Log("collision has not happened!");
         }
     }
