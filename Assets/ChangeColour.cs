@@ -32,7 +32,7 @@ public class ChangeColour : MonoBehaviour
 
     bool CorrectPosition (){
         for (int i=0; i<currentPoints.Length; i++){
-            if ((Vector3.Distance(currentPoints[i].position, targetPoints[i].position)) > 0.2f){
+            if ((Vector3.Distance(currentPoints[i].position, targetPoints[i].position)) > 0.0002f){
                 return false;
             }
         }
