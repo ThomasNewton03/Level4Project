@@ -23,20 +23,39 @@ public class ChangeColour : MonoBehaviour
             rend.sharedMaterial = material[1];
             Debug.Log("collision has happened!");
         }
-        else {
+        else if (IncorrectCollision()) {
             rend.sharedMaterial = material[2];
             Debug.Log("collision has not happened!");
+        }
+        else {
+            rend.sharedMaterial = material[0];
         }
     }
 
 
     bool CorrectPosition (){
         for (int i=0; i<currentPoints.Length; i++){
-            if ((Vector3.Distance(currentPoints[i].position, targetPoints[i].position)) > 0.0002f){
+            if ((Vector3.Distance(currentPoints[i].position, targetPoints[i].position)) > 0.01f){
                 return false;
             }
         }
         return true;   
+    }
+
+    bool IncorrectCollision(){
+        // change this method
+        Ray ray = new Ray(transform.position, transform.forward);
+        RaycastHit hit;
+
+        // If ray hits the cube and it's not at the correct point
+        if (Physics.Raycast(ray, out hit, 0.5f))
+        {
+            if (hit.collider.gameObject == colCube)
+            {
+                return true;
+            }
+        }
+        return false;
     }
     
 }
