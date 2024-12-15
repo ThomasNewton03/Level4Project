@@ -23,10 +23,12 @@ public class ChangeColour : MonoBehaviour
             rend.sharedMaterial = material[1];
             Debug.Log("collision has happened!");
         }
+        /*
         else if (IncorrectCollision()) {
             rend.sharedMaterial = material[2];
             Debug.Log("collision has not happened!");
         }
+        */
         else {
             rend.sharedMaterial = material[0];
         }
@@ -35,13 +37,14 @@ public class ChangeColour : MonoBehaviour
 
     bool CorrectPosition (){
         for (int i=0; i<currentPoints.Length; i++){
-            if ((Vector3.Distance(currentPoints[i].position, targetPoints[i].position)) > 0.01f){
+            if ((Vector3.Distance(currentPoints[i].position, targetPoints[i].position)) > 0.02f){
                 return false;
             }
         }
         return true;   
     }
 
+    /*
     bool IncorrectCollision(){
         // change this method
         Ray ray = new Ray(transform.position, transform.forward);
@@ -57,5 +60,6 @@ public class ChangeColour : MonoBehaviour
         }
         return false;
     }
+    */
     
 }
