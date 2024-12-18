@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ChangeColour : MonoBehaviour
+public class ChangeScrewColor : MonoBehaviour
 {
     public GameObject colCube;
     public Material[] material;
@@ -10,17 +10,23 @@ public class ChangeColour : MonoBehaviour
     public Transform[] currentPoints;
     public Transform[] targetPoints;
 
+    public Transform screwTransform1;
+    public Transform screwTransform2;
+    public Transform objectTransform;
     
-    void Start (){
+    void Start()
+    {
         rend = GetComponent<Renderer>();
         rend.enabled = true;
         rend.sharedMaterial = material[0];
     }
 
+    
+    void Update()
+    {
+        Debug.Log(CorrectAlignment());
 
-    void Update (){
-
-        if (CorrectPosition()){
+        if (CorrectPosition() && CorrectAlignment()){
             rend.sharedMaterial = material[1];
             Debug.Log("collision has happened!");
         }
@@ -28,7 +34,6 @@ public class ChangeColour : MonoBehaviour
             rend.sharedMaterial = material[0];
         }
     }
-
 
     bool CorrectPosition (){
         for (int i=0; i<currentPoints.Length; i++){
@@ -38,5 +43,13 @@ public class ChangeColour : MonoBehaviour
         }
         return true;   
     }
-    
+
+    bool CorrectAlignment (){
+        Vector3 distance1 = (screwTransform1.position - objectTransform.position).normalized;
+        Vector3 distance2 = (screwTransform2.position - objectTransform.position).normalized;
+        if (Vector3.Dot(distance1, distance2) < 0.9f){
+            return false;
+        }
+        return true;
+    }
 }
