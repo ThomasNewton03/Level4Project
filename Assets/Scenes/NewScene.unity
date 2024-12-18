@@ -472,7 +472,7 @@ Transform:
   m_GameObject: {fileID: 23843930}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.5, y: 0.5, z: -0.5}
+  m_LocalPosition: {x: -0.5, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -24277,7 +24277,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 94ffa464d3b36e549960daf5120a3f45, type: 2}
   rend: {fileID: 0}
   currentPoints:
-  - {fileID: 1380270469}
+  - {fileID: 1875913190}
   targetPoints:
   - {fileID: 23843931}
   screwTransform1: {fileID: 1380270469}
@@ -45075,7 +45075,7 @@ PrefabInstance:
       objectReference: {fileID: 671454244}
     - target: {fileID: 2665606988511699373, guid: d658761aa83a53e499eb16fc5192eddc, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2665606988511699373, guid: d658761aa83a53e499eb16fc5192eddc, type: 3}
       propertyPath: objectTransform
@@ -45181,7 +45181,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2665606988511699373, guid: d658761aa83a53e499eb16fc5192eddc, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 7228547315477815657, guid: d658761aa83a53e499eb16fc5192eddc, type: 3}
@@ -45200,6 +45201,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3944245507658300211, guid: d658761aa83a53e499eb16fc5192eddc, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8650099597516378630}
+    - targetCorrespondingSourceObject: {fileID: 3944245507658300211, guid: d658761aa83a53e499eb16fc5192eddc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8650099597516378637}
   m_SourcePrefab: {fileID: 100100000, guid: d658761aa83a53e499eb16fc5192eddc, type: 3}
 --- !u!1 &8650099597516378623 stripped
 GameObject:
@@ -45250,6 +45254,31 @@ MonoBehaviour:
     - {x: 0.57735026, y: 0.57735026, z: -0.57735026}
     - {x: 0.57735026, y: 0.57735026, z: 0.57735026}
     - {x: 0.57735026, y: -0.57735026, z: 0.57735026}
+--- !u!114 &8650099597516378637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8650099597516378623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caa5843e6c2daf74481d7d128512bd71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colCube: {fileID: 367421216}
+  material:
+  - {fileID: 2100000, guid: 638d6c4d4dbcb1f4ea598973fd5f8a06, type: 2}
+  - {fileID: 2100000, guid: bd7151a3d2424e84aa16f91fda58748b, type: 2}
+  - {fileID: 2100000, guid: 94ffa464d3b36e549960daf5120a3f45, type: 2}
+  rend: {fileID: 0}
+  currentPoints:
+  - {fileID: 1380270469}
+  targetPoints:
+  - {fileID: 23843931}
+  screwTransform1: {fileID: 1380270469}
+  screwTransform2: {fileID: 1875913190}
+  objectTransform: {fileID: 23843931}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
