@@ -26,12 +26,12 @@ public class ChangeScrewColor : MonoBehaviour
     void Update()
     {
         Vector3 direction = (objectTransform1.position - objectTransform2.position).normalized;
-        Vector3 extendedEndPoint = objectTransform1.position + direction * 5f;
+        Vector3 extendedEndPoint = objectTransform1.position + direction * 3f;
         Debug.DrawLine(objectTransform1.position, extendedEndPoint, Color.red);
 
-        Vector3 direction2 = screwTransform1.position - screwTransform2.position;
-        Vector3 extendedEndPoint2 = screwTransform1.position + direction2.normalized * 5f;
-        Debug.DrawLine(screwTransform1.position, extendedEndPoint2, Color.green);
+        Vector3 direction2 = (screwTransform1.position - objectTransform1.position).normalized;
+        Vector3 extendedEndPoint2 = objectTransform1.position + direction2.normalized;
+        Debug.DrawLine(objectTransform1.position, extendedEndPoint2, Color.green);
 
         if (CorrectPosition() && CorrectAlignment()){
             rend.sharedMaterial = material[1];
