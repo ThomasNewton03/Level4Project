@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ChangeScrewColor : MonoBehaviour
 {
@@ -14,6 +15,11 @@ public class ChangeScrewColor : MonoBehaviour
     public Transform screwTransform2;
     public Transform objectTransform1;
     public Transform objectTransform2;
+
+
+    public float timeTaken = 0f;
+    public bool timeUp = false;
+
     
     void Start()
     {
@@ -36,6 +42,11 @@ public class ChangeScrewColor : MonoBehaviour
         if (CorrectPosition() && CorrectAlignment()){
             rend.sharedMaterial = material[1];
             Debug.Log("collision has happened!");
+            timeTaken += Time.deltaTime;
+            if (timeTaken > 2f && !timeUp){
+                timeUp = true;
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            }
         }
         else {
             rend.sharedMaterial = material[0];
