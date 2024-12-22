@@ -72,31 +72,4 @@ public class ChangeScrewColor : MonoBehaviour
         }
         return true;
     }
-
-
-    /*
-    bool CorrectAlignment (){
-        Vector3 distance1 = (screwTransform1.position - objectTransform.position).normalized;
-        Vector3 distance2 = (screwTransform2.position - objectTransform.position).normalized;
-        float centerDistance = Vector3.Distance((screwTransform1.position + screwTransform2.position) / 2, objectTransform.position);
-
-        if ((Vector3.Dot(distance1, distance2) < 0.9f) || (centerDistance > 0.05f)){
-            return false;
-        }
-        return true;
-    }
-    */
-
-    /*
-    bool CorrectAngle (){
-        Vector3 screwUpDirection = screwTransform1.up;
-        Vector3 distance = (objectTransform.position - screwTransform1.position).normalized;
-        float rightAngle = Vector3.Angle(screwUpDirection, distance);
-    
-        if (Mathf.Abs(rightAngle - 90) <= 70f){
-            return true;
-        }
-        return false;
-    }
-    */
 }
