@@ -1,0 +1,43 @@
+{
+    "name": "VisionLib.Core",
+    "rootNamespace": "Visometry.VisionLib.SDK.Core",
+    "references": [
+        "GUID:15fc0a57446b3144c949da3e2b9737a9",
+        "GUID:86e931663771b54418bb3c3d1b1ba595"
+    ],
+    "includePlatforms": [
+        "Android",
+        "Editor",
+        "iOS",
+        "macOSStandalone",
+        "WSA",
+        "WindowsStandalone32",
+        "WindowsStandalone64"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Newtonsoft.Json.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.render-pipelines.universal",
+            "expression": "0.0",
+            "define": "VL_USE_UNIVERSAL_RENDER_PIPELINE"
+        },
+        {
+            "name": "com.microsoft.mixedreality.openxr",
+            "expression": "0.0",
+            "define": "VL_HL_XRPROVIDER_OPENXR"
+        },
+        {
+            "name": "com.unity.xr.windowsmr",
+            "expression": "0.0",
+            "define": "VL_HL_XRPROVIDER_WINDOWSMR"
+        }
+    ],
+    "noEngineReferences": false
+}

@@ -1,0 +1,20 @@
+{
+    "name": "VisionLib.UI.Editor",
+    "rootNamespace": "Visometry.VisionLib.SDK.UI",
+    "references": [
+        "GUID:c3ec89098cff0a74eacc523b3879d466",
+        "GUID:7e32595bb451a9e4785cd54e04c7e9bc",
+        "GUID:a01424d9c0001dc45b330041d06a5f43"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

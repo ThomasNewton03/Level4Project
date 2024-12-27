@@ -1,0 +1,30 @@
+{
+    "type": "VisionLibTrackerConfig",
+    "version": 1,
+    "meta": {
+        "name": "TutorialModelTracker",
+        "description": "Simple object tracking demonstrator configuration file",
+        "author": "VisionLib"
+    },
+    "tracker": {
+        "type": "modelTracker",
+        "version": 1,
+        "parameters": {
+            "modelURI": "project-dir:pyramid.glb",    
+            "useColor": true,
+            "metric": "m", 
+            "initPose": {
+                "t": [1.075873932e-05, -2.691710303e-05, 186.6348404],
+                "q": [-0.71556605, -0.008785564998, 0.0007537285788, 0.6984894228]
+            },
+            "keyFrameDistance": 50,
+            "laplaceThreshold": 5,
+            "normalThreshold": 1000,
+            "lineGradientThreshold": 20,
+            "lineSearchLengthTracking": 15,
+            "minNumOfCorrespondences": 50,
+            "minInlierRatioInit": 0.9,
+            "minInlierRatioTracking": 0.8
+        }
+    }
+}

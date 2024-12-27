@@ -1,0 +1,34 @@
+{
+    "name": "VisionLib.HoloLens.Editor",
+    "rootNamespace": "VisionLib.SDK.HoloLens",
+    "references": [
+        "GUID:293da91ef9f0d4145912aa75eb1d92c2",
+        "GUID:7e32595bb451a9e4785cd54e04c7e9bc",
+        "GUID:c3ec89098cff0a74eacc523b3879d466"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "UNITY_WSA_10_0",
+        "VL_HL_XRPROVIDER_OPENXR || VL_HL_XRPROVIDER_WINDOWSMR"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.microsoft.mixedreality.openxr",
+            "expression": "0.0",
+            "define": "VL_HL_XRPROVIDER_OPENXR"
+        },
+        {
+            "name": "com.unity.xr.windowsmr",
+            "expression": "0.0",
+            "define": "VL_HL_XRPROVIDER_WINDOWSMR"
+        }
+    ],
+    "noEngineReferences": false
+}

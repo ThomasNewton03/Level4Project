@@ -14,12 +14,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Scene1.unity
     guid: 174cb3faae23eaa44806fd27823e79c7
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Scene2.unity
     guid: 35ebf1613f20e064aa096377e5b8f486
+  - enabled: 1
+    path: Assets/SceneTest.unity
+    guid: 3c409b84ec6139a47952ca8d2bc34a87
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 0f1baf9e8856a9a4b968b7e3d602be46, type: 2}
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 1118c6c9fb117e6488399b8d06a0c139, type: 2}

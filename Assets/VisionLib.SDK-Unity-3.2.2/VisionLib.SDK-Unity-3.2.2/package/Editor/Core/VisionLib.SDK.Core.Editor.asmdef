@@ -1,0 +1,61 @@
+{
+    "name": "VisionLib.Editor",
+    "rootNamespace": "Visometry.VisionLib.SDK.Core",
+    "references": [
+        "GUID:c3ec89098cff0a74eacc523b3879d466",
+        "GUID:86e931663771b54418bb3c3d1b1ba595",
+        "GUID:dbb92fd56442a464d9a4811e5d417ebe",
+        "GUID:e40ba710768534012815d3193fa296cb",
+        "GUID:f9fe0089ec81f4079af78eb2287a6163",
+        "GUID:9e6bdf94fcb245c585c26819fa23a202",
+        "GUID:d76576b768da4171b007f21c44fabe13",
+        "GUID:28d8685fae23c21419ef42894cb9b075"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.render-pipelines.universal",
+            "expression": "0.0",
+            "define": "VL_USE_UNIVERSAL_RENDER_PIPELINE"
+        },
+        {
+            "name": "com.microsoft.mixedreality.openxr",
+            "expression": "0.0",
+            "define": "VL_HL_XRPROVIDER_OPENXR"
+        },
+        {
+            "name": "com.unity.xr.windowsmr",
+            "expression": "0.0",
+            "define": "VL_HL_XRPROVIDER_WINDOWSMR"
+        },
+        {
+            "name": "com.unity.xr.management",
+            "expression": "0.0",
+            "define": "VL_XR_MANAGEMENT"
+        },
+        {
+            "name": "com.unity.xr.arcore",
+            "expression": "0.0",
+            "define": "VL_ARCORE_XRPLUGIN"
+        },
+        {
+            "name": "com.magicleap.unitysdk",
+            "expression": "0.0",
+            "define": "VL_WITH_MAGICLEAP"
+        },
+        {
+            "name": "com.unity.xr.arfoundation",
+            "expression": "0.0",
+            "define": "VL_ARFOUNDATION"
+        }
+    ],
+    "noEngineReferences": false
+}

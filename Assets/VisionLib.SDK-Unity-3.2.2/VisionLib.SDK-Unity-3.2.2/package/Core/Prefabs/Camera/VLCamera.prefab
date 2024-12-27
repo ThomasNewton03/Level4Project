@@ -1,0 +1,193 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &146800
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 472700}
+  - component: {fileID: 2092224}
+  - component: {fileID: 11432880}
+  - component: {fileID: 11476880}
+  - component: {fileID: 3014394491667073156}
+  - component: {fileID: 11469560}
+  - component: {fileID: 11463246}
+  - component: {fileID: -8702675861749378371}
+  m_Layer: 0
+  m_Name: VLCamera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &472700
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146800}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &2092224
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146800}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.01
+  far clip plane: 100
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!114 &11432880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9615b636ad56ef40a1a2080fc954f89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameters:
+    rid: 6871998919571406852
+  licenseFile:
+    path: streaming-assets-dir:VisionLib/license.xml
+    content: 
+  targetFPS: 30
+  waitForEvents: 1
+  logLevel: 2
+  calibrationDataBaseURI: 
+  references:
+    version: 2
+    RefIds:
+    - rid: 6871998919571406852
+      type: {class: TrackerRuntimeParameters, ns: Visometry.VisionLib.SDK.Core, asm: VisionLib.Core}
+      data:
+        imageSourceEnabled:
+          useValueFromUnity: 0
+          value: 1
+          onValueChanged:
+            m_PersistentCalls:
+              m_Calls: []
+--- !u!114 &11476880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e80cbc7fe7cdbe458ae45e712aa21dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  orientationOverride:
+    active: 0
+    orientation: 0
+--- !u!114 &3014394491667073156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62641ecefab50514390eb851aa31ed2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  imageStream: 1
+--- !u!114 &11469560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb52973d093d1b24584c917f16e1cf65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  backgroundLayer: 8
+  clearColor: {r: 0, g: 0, b: 0, a: 1}
+  imageMaterial: {fileID: 2100000, guid: 5127012b5c794cf4196078f67a5e67c1, type: 2}
+--- !u!114 &11463246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b62a1fa2ceaf034449b3eb5dc2b4c23f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coordinateSystemAdjustment: 1
+  backgroundLayer: 8
+--- !u!114 &-8702675861749378371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0da1d8e2bcf554045acc5bb875b4ef3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  docsLinkDescriptions:
+  - linkButtonLabel: Migration Guide
+    linkButtonTooltip: This prefab has been merged with the VLDefaultTrackingConfiguration
+      prefab and therefore has been marked obsolete.
+    linkURL: https://docs.visionlib.com/v3.2.2/#/Release_Notes/migrationGuide_3.1?id=migration-guide-obsolete-vlcamera-and-vldefaulttrackingconfiguration-perfab
+  obsoletePrefabName: VLCamera
+  hasReplacement: 1
+  replacementPrefabName: VLTracking

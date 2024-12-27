@@ -1,0 +1,18 @@
+{
+    "name": "Visometry.Helpers.Editor",
+    "rootNamespace": "Visometry.Helpers.Editor",
+    "references": [
+        "GUID:86e931663771b54418bb3c3d1b1ba595"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
