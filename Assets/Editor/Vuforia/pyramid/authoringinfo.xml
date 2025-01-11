@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARInfo>
+<TargetSet version="27.0" toolVersion="10.28.4">
+<ModelTarget name="pyramid" targetId="1c8ede1dddf74f569a7af4294445dede" version="14.0" toolVersion="10.28.4" bbox="-0.025425 -0.025425 -0.025425 0.025425 0.001675 0.025425" previewImage="1c8ede1dddf74f569a7af4294445dede_preview.jpg"/>
+
+</TargetSet>
+
+<Assembly name="pyramids_assembly" assemblyId="10aedc1749ec4bbbb2ff1dca4fca92d6">
+<Part name="pyramid" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="GuideView_0000" translation="7.45058e-09 -0.011112 0.143671" rotation="AD: 0.999597 0.0754271 -0.414047 199.062" image="pyramid_GuideView_0000.png" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARInfo>

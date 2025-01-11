@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="pyramid" motionHint="adaptive" trackingMode="car" optimizeTrackingFor="default"/>
+
+</Tracking>
+
+<Assembly name="pyramids_assembly" assemblyId="10aedc1749ec4bbbb2ff1dca4fca92d6">
+<Part name="pyramid" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="GuideView_0000" translation="7.45058e-09 -0.011112 0.143671" rotation="AD: 0.999597 0.0754271 -0.414047 199.062" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARConfig>

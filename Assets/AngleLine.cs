@@ -6,8 +6,7 @@ public class AngleLine : MonoBehaviour
 {
 
     public LineRenderer lineRenderer;
-    public Transform trans1;
-    public Transform trans2;
+    public Transform trans;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,7 +16,7 @@ public class AngleLine : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        lineRenderer.SetPosition(0, trans1.position);
-        lineRenderer.SetPosition(1, trans2.position);
+        lineRenderer.SetPosition(0, trans.position);
+        lineRenderer.SetPosition(1, trans.position + Vector3.up * 3f);
     }
 }
