@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARInfo>
+<TargetSet version="27.0" toolVersion="10.28.4">
+<ModelTarget name="SmallObjectModelTrackTest" targetId="e4f1af289e6740e49a9d057340ed1a63" version="14.0" toolVersion="10.28.4" bbox="-0.015580 -0.002231 -0.002212 0.027770 0.002212 0.002231" previewImage="e4f1af289e6740e49a9d057340ed1a63_preview.jpg"/>
+
+</TargetSet>
+
+<Assembly name="SmallObjectModelTrackTests_assembly" assemblyId="f44a2d782ae04a209810968754caeb69">
+<Part name="SmallObjectModelTrackTest" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="GuideView_0000" translation="0.00684609 -0.000547135 0.0381263" rotation="AD: 1 -0.000898188 0.018975 185.419" image="SmallObjectModelTrackTest_GuideView_0000.png" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARInfo>
