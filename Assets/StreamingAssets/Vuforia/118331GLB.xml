@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="118331GLB" motionHint="adaptive" trackingMode="car" optimizeTrackingFor="default"/>
+
+</Tracking>
+
+<Assembly name="118331GLBs_assembly" assemblyId="981d190857a445c79e88bebdb054c343">
+<Part name="118331GLB" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="GuideView_0000" translation="-0.0216138 0.000315359 0.0419177" rotation="AD: 0.99038 0.203743 -0.955794 197.256" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARConfig>

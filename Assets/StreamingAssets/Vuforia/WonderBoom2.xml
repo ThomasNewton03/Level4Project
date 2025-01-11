@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="WonderBoom2" motionHint="adaptive" trackingMode="car" optimizeTrackingFor="default"/>
+
+</Tracking>
+
+<Assembly name="WonderBoom2s_assembly" assemblyId="0b365a1cd92f416c947445be264e15e7">
+<Part name="WonderBoom2" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="GuideView_0000" translation="-0.010046 0.0639307 0.241038" rotation="AD: 0.9999 -0.0203594 -0.964746 177.102" trained="no">
+
+</EntryPoint>
+<EntryPoint name="GuideView_0001" translation="-0.010046 0.0639307 0.235632" rotation="AD: 0.9999 -0.0203594 -0.964746 177.102" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARConfig>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARInfo>
+<TargetSet version="27.0" toolVersion="10.28.4">
+<ModelTarget name="118331GLB" targetId="8255eef99e154d21aa44c84c10d1cef5" version="14.0" toolVersion="10.28.4" bbox="-0.002446 -0.002446 -0.043276 0.002449 0.002449 0.000021" previewImage="8255eef99e154d21aa44c84c10d1cef5_preview.jpg"/>
+
+</TargetSet>
+
+<Assembly name="118331GLBs_assembly" assemblyId="981d190857a445c79e88bebdb054c343">
+<Part name="118331GLB" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="GuideView_0000" translation="-0.0216138 0.000315359 0.0419177" rotation="AD: 0.99038 0.203743 -0.955794 197.256" image="118331GLB_GuideView_0000.png" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARInfo>
