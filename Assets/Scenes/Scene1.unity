@@ -996,13 +996,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: image1
+  mTrackableName: qrcode19
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/FlatpackFurnitureImage1.xml
-  mAspectRatio: 0.2549625
+  mDataSetPath: Vuforia/QRCodeScene1.xml
+  mAspectRatio: 1
   mImageTargetType: 0
-  mWidth: 0.08
-  mHeight: 0.020397
+  mWidth: 0.048
+  mHeight: 0.048
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -1017,8 +1017,8 @@ Transform:
   m_GameObject: {fileID: 559357148}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 2.8366, z: 1}
+  m_LocalPosition: {x: -0.0187, y: 0.005, z: 0.0168}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1872905893}
@@ -1038,8 +1038,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 559357151}
   mHiddenRoot: {fileID: 0}
-  mTargetName: image1
-  mDatasetName: Vuforia/FlatpackFurnitureImage1.xml
+  mTargetName: qrcode19
+  mDatasetName: Vuforia/QRCodeScene1.xml
   mCastedBehaviour: {fileID: 559357151}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -1351,27 +1351,27 @@ PrefabInstance:
     - target: {fileID: 5701162036033484751, guid: 91460da63ff9039479614d6b6f6890f5,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.35000005
+      value: 0.35000008
       objectReference: {fileID: 0}
     - target: {fileID: 5701162036033484751, guid: 91460da63ff9039479614d6b6f6890f5,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.0070000016
+      value: 0.007000003
       objectReference: {fileID: 0}
     - target: {fileID: 5701162036033484751, guid: 91460da63ff9039479614d6b6f6890f5,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.149
+      value: 0.16770001
       objectReference: {fileID: 0}
     - target: {fileID: 5701162036033484751, guid: 91460da63ff9039479614d6b6f6890f5,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0017626735
+      value: -0.003525347
       objectReference: {fileID: 0}
     - target: {fileID: 5701162036033484751, guid: 91460da63ff9039479614d6b6f6890f5,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.16000001
+      value: 0.14320001
       objectReference: {fileID: 0}
     - target: {fileID: 5701162036033484751, guid: 91460da63ff9039479614d6b6f6890f5,
         type: 3}
