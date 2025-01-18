@@ -236,6 +236,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: 101350GLB (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 755431136534277436, guid: 13f0c6000d3336d4dbefa2c2d058f0ad,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8742428119287221319, guid: 13f0c6000d3336d4dbefa2c2d058f0ad,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -4463,6 +4468,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 101350GLB (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 755431136534277436, guid: 13f0c6000d3336d4dbefa2c2d058f0ad,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8742428119287221319, guid: 13f0c6000d3336d4dbefa2c2d058f0ad,
         type: 3}
