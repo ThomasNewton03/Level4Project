@@ -446,24 +446,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &662379190
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 662379184}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  outlineMode: 0
-  outlineColor: {r: 0.05660379, g: 0.053933796, b: 0.053933796, a: 1}
-  outlineWidth: 2.92
-  precomputeOutline: 0
-  bakeKeys: []
-  bakeValues: []
 --- !u!1 &880868933
 GameObject:
   m_ObjectHideFlags: 0
@@ -821,24 +803,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1229527441
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1229527432}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  outlineMode: 0
-  outlineColor: {r: 0.1509434, g: 0.1400261, b: 0.1400261, a: 1}
-  outlineWidth: 2.92
-  precomputeOutline: 0
-  bakeKeys: []
-  bakeValues: []
 --- !u!1 &1533450308
 GameObject:
   m_ObjectHideFlags: 0
@@ -876,8 +840,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3, y: -70}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 3, y: -191}
+  m_SizeDelta: {x: 260, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1533450310
 MonoBehaviour:
@@ -1214,18 +1178,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1229527440}
-    - targetCorrespondingSourceObject: {fileID: 2795005780151720904, guid: 141618a9e90c70e4b936ee2b9bc568a6,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1229527441}
     - targetCorrespondingSourceObject: {fileID: 8434079509415368772, guid: 141618a9e90c70e4b936ee2b9bc568a6,
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 662379186}
-    - targetCorrespondingSourceObject: {fileID: 8434079509415368772, guid: 141618a9e90c70e4b936ee2b9bc568a6,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 662379190}
     - targetCorrespondingSourceObject: {fileID: 2852249757065488892, guid: 141618a9e90c70e4b936ee2b9bc568a6,
         type: 3}
       insertIndex: -1

@@ -12417,7 +12417,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1347020625}
   mHiddenRoot: {fileID: 0}
-  mTargetName: qrcode20
+  mTargetName: qrcode2
   mDatasetName: Vuforia/QRCodeScene1.xml
   mCastedBehaviour: {fileID: 1347020625}
   mMeshFilter: {fileID: 0}
@@ -12481,7 +12481,7 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: qrcode20
+  mTrackableName: qrcode2
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/QRCodeScene1.xml
   mAspectRatio: 1
@@ -13014,7 +13014,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1393431810}
   mHiddenRoot: {fileID: 0}
-  mTargetName: qrcode20
+  mTargetName: qrcode4
   mDatasetName: Vuforia/QRCodeScene1.xml
   mCastedBehaviour: {fileID: 1393431810}
   mMeshFilter: {fileID: 0}
@@ -13078,7 +13078,7 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: qrcode20
+  mTrackableName: qrcode4
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/QRCodeScene1.xml
   mAspectRatio: 1
