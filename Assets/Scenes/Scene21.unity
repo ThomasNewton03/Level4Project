@@ -241,7 +241,7 @@ GameObject:
   - component: {fileID: 69044169}
   - component: {fileID: 69044168}
   - component: {fileID: 69044167}
-  - component: {fileID: 69044166}
+  - component: {fileID: 69044170}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -249,25 +249,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &69044166
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 69044165}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 69044168}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: qrcode13
-  mDatasetName: Vuforia/QRCodeScene1.xml
-  mCastedBehaviour: {fileID: 69044168}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &69044167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -338,7 +319,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 69044166}
+  mPreview: {fileID: 69044170}
 --- !u!4 &69044169
 Transform:
   m_ObjectHideFlags: 0
@@ -357,6 +338,25 @@ Transform:
   - {fileID: 1804907953}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
+--- !u!114 &69044170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69044165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 69044168}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: qrcode13
+  mDatasetName: Vuforia/QRCodeScene1.xml
+  mCastedBehaviour: {fileID: 69044168}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1001 &135337118
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2776,7 +2776,7 @@ GameObject:
   - component: {fileID: 760303843}
   - component: {fileID: 760303846}
   - component: {fileID: 760303845}
-  - component: {fileID: 760303844}
+  - component: {fileID: 760303847}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -2800,25 +2800,6 @@ Transform:
   - {fileID: 1412966466}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -90, y: -90, z: -90}
---- !u!114 &760303844
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 760303842}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 760303846}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: qrcode12
-  mDatasetName: Vuforia/QRCodeScene1.xml
-  mCastedBehaviour: {fileID: 760303846}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &760303845
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2889,7 +2870,26 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 760303844}
+  mPreview: {fileID: 760303847}
+--- !u!114 &760303847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 760303842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 760303846}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: qrcode12
+  mDatasetName: Vuforia/QRCodeScene1.xml
+  mCastedBehaviour: {fileID: 760303846}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &770634233
 GameObject:
   m_ObjectHideFlags: 0
@@ -3989,7 +3989,7 @@ GameObject:
   - component: {fileID: 1045270731}
   - component: {fileID: 1045270730}
   - component: {fileID: 1045270729}
-  - component: {fileID: 1045270728}
+  - component: {fileID: 1045270732}
   m_Layer: 0
   m_Name: ImageTarget (1)
   m_TagString: Untagged
@@ -3997,25 +3997,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1045270728
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1045270727}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1045270730}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: qrcode11
-  mDatasetName: Vuforia/QRCodeScene1.xml
-  mCastedBehaviour: {fileID: 1045270730}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1045270729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4086,7 +4067,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1045270728}
+  mPreview: {fileID: 1045270732}
 --- !u!4 &1045270731
 Transform:
   m_ObjectHideFlags: 0
@@ -4103,6 +4084,25 @@ Transform:
   - {fileID: 1916983454}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -90, y: -90, z: -270}
+--- !u!114 &1045270732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1045270727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1045270730}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: qrcode11
+  mDatasetName: Vuforia/QRCodeScene1.xml
+  mCastedBehaviour: {fileID: 1045270730}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &1071991916
 GameObject:
   m_ObjectHideFlags: 0
