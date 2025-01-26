@@ -629,7 +629,7 @@ GameObject:
   - component: {fileID: 179167351}
   - component: {fileID: 179167350}
   - component: {fileID: 179167349}
-  - component: {fileID: 179167348}
+  - component: {fileID: 179167352}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -637,25 +637,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &179167348
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 179167347}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 179167350}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: qrcode2
-  mDatasetName: Vuforia/QRCodeScene1.xml
-  mCastedBehaviour: {fileID: 179167350}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &179167349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -726,7 +707,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 179167348}
+  mPreview: {fileID: 179167352}
 --- !u!4 &179167351
 Transform:
   m_ObjectHideFlags: 0
@@ -745,6 +726,25 @@ Transform:
   - {fileID: 908459018}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 270, y: 0, z: 0}
+--- !u!114 &179167352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179167347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 179167350}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: qrcode2
+  mDatasetName: Vuforia/QRCodeScene1.xml
+  mCastedBehaviour: {fileID: 179167350}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &210930416
 GameObject:
   m_ObjectHideFlags: 0
@@ -1719,7 +1719,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 638d6c4d4dbcb1f4ea598973fd5f8a06, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8160086279983074459, guid: bf490462162e5a141bc56692521d6e55, type: 3}
+    - {fileID: 5540764089539774916, guid: bf490462162e5a141bc56692521d6e55, type: 3}
+    - {fileID: 1002625669078584767, guid: bf490462162e5a141bc56692521d6e55, type: 3}
+    - {fileID: 6114642621317608228, guid: bf490462162e5a141bc56692521d6e55, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1742,7 +1746,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 638d6c4d4dbcb1f4ea598973fd5f8a06, type: 2}
+      objectReference: {fileID: 2100000, guid: bd7151a3d2424e84aa16f91fda58748b, type: 2}
     - target: {fileID: 1002625669078584767, guid: bf490462162e5a141bc56692521d6e55,
         type: 3}
       propertyPath: m_Enabled
@@ -1913,7 +1917,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 638d6c4d4dbcb1f4ea598973fd5f8a06, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8160086279983074459, guid: bf490462162e5a141bc56692521d6e55, type: 3}
+    - {fileID: 5540764089539774916, guid: bf490462162e5a141bc56692521d6e55, type: 3}
+    - {fileID: 1002625669078584767, guid: bf490462162e5a141bc56692521d6e55, type: 3}
+    - {fileID: 6114642621317608228, guid: bf490462162e5a141bc56692521d6e55, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
