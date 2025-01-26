@@ -238,32 +238,32 @@ PrefabInstance:
     - target: {fileID: 8742428119287221319, guid: 13f0c6000d3336d4dbefa2c2d058f0ad,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.009345794
+      value: 0.012650467
       objectReference: {fileID: 0}
     - target: {fileID: 8742428119287221319, guid: 13f0c6000d3336d4dbefa2c2d058f0ad,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.076923065
+      value: 0.10412306
       objectReference: {fileID: 0}
     - target: {fileID: 8742428119287221319, guid: 13f0c6000d3336d4dbefa2c2d058f0ad,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.0035087718
+      value: 0.0047494737
       objectReference: {fileID: 0}
     - target: {fileID: 8742428119287221319, guid: 13f0c6000d3336d4dbefa2c2d058f0ad,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.506542
+      value: -0.50654
       objectReference: {fileID: 0}
     - target: {fileID: 8742428119287221319, guid: 13f0c6000d3336d4dbefa2c2d058f0ad,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.2245617
+      value: 1.2432
       objectReference: {fileID: 0}
     - target: {fileID: 8742428119287221319, guid: 13f0c6000d3336d4dbefa2c2d058f0ad,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0
+      value: -0.000000080192
       objectReference: {fileID: 0}
     - target: {fileID: 8742428119287221319, guid: 13f0c6000d3336d4dbefa2c2d058f0ad,
         type: 3}
@@ -610,7 +610,7 @@ GameObject:
   - component: {fileID: 299804267}
   - component: {fileID: 299804266}
   - component: {fileID: 299804265}
-  - component: {fileID: 299804264}
+  - component: {fileID: 299804268}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -618,25 +618,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &299804264
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 299804263}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 299804266}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: qrcode20
-  mDatasetName: Vuforia/QRCodeScene1.xml
-  mCastedBehaviour: {fileID: 299804266}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &299804265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -707,7 +688,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 299804264}
+  mPreview: {fileID: 299804268}
 --- !u!4 &299804267
 Transform:
   m_ObjectHideFlags: 0
@@ -717,13 +698,32 @@ Transform:
   m_GameObject: {fileID: 299804263}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -0.056, y: 0.017, z: 0}
+  m_LocalPosition: {x: -0.0354, y: 0.009, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1888886541}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &299804268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 299804263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 299804266}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: qrcode20
+  mDatasetName: Vuforia/QRCodeScene1.xml
+  mCastedBehaviour: {fileID: 299804266}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1001 &431340829
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1536,17 +1536,17 @@ PrefabInstance:
     - target: {fileID: 8742428119287221319, guid: 13f0c6000d3336d4dbefa2c2d058f0ad,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.095
+      value: 0.066
       objectReference: {fileID: 0}
     - target: {fileID: 8742428119287221319, guid: 13f0c6000d3336d4dbefa2c2d058f0ad,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.019
+      value: -0.009
       objectReference: {fileID: 0}
     - target: {fileID: 8742428119287221319, guid: 13f0c6000d3336d4dbefa2c2d058f0ad,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.3207001
+      value: -0.2486
       objectReference: {fileID: 0}
     - target: {fileID: 8742428119287221319, guid: 13f0c6000d3336d4dbefa2c2d058f0ad,
         type: 3}
@@ -1642,32 +1642,32 @@ PrefabInstance:
     - target: {fileID: -1564261159322371028, guid: 5149c544a067b1e4aa89f0c01ae5f367,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.10699998
+      value: 0.0716922
       objectReference: {fileID: 0}
     - target: {fileID: -1564261159322371028, guid: 5149c544a067b1e4aa89f0c01ae5f367,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.28500003
+      value: 0.19095597
       objectReference: {fileID: 0}
     - target: {fileID: -1564261159322371028, guid: 5149c544a067b1e4aa89f0c01ae5f367,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.013000005
+      value: 0.008710269
       objectReference: {fileID: 0}
     - target: {fileID: -1564261159322371028, guid: 5149c544a067b1e4aa89f0c01ae5f367,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.03755814
+      value: 0.03745815
       objectReference: {fileID: 0}
     - target: {fileID: -1564261159322371028, guid: 5149c544a067b1e4aa89f0c01ae5f367,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.018896984
+      value: -0.011
       objectReference: {fileID: 0}
     - target: {fileID: -1564261159322371028, guid: 5149c544a067b1e4aa89f0c01ae5f367,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.00052147976
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -1564261159322371028, guid: 5149c544a067b1e4aa89f0c01ae5f367,
         type: 3}
@@ -1753,32 +1753,32 @@ PrefabInstance:
     - target: {fileID: 8742428119287221319, guid: 13f0c6000d3336d4dbefa2c2d058f0ad,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.009345794
+      value: 0.011383178
       objectReference: {fileID: 0}
     - target: {fileID: 8742428119287221319, guid: 13f0c6000d3336d4dbefa2c2d058f0ad,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.076923065
+      value: 0.093692295
       objectReference: {fileID: 0}
     - target: {fileID: 8742428119287221319, guid: 13f0c6000d3336d4dbefa2c2d058f0ad,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.0035087718
+      value: 0.004273684
       objectReference: {fileID: 0}
     - target: {fileID: 8742428119287221319, guid: 13f0c6000d3336d4dbefa2c2d058f0ad,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.23271027
+      value: 0.23271
       objectReference: {fileID: 0}
     - target: {fileID: 8742428119287221319, guid: 13f0c6000d3336d4dbefa2c2d058f0ad,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.2245617
+      value: 1.236
       objectReference: {fileID: 0}
     - target: {fileID: 8742428119287221319, guid: 13f0c6000d3336d4dbefa2c2d058f0ad,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.000000053461
       objectReference: {fileID: 0}
     - target: {fileID: 8742428119287221319, guid: 13f0c6000d3336d4dbefa2c2d058f0ad,
         type: 3}
@@ -1894,17 +1894,17 @@ PrefabInstance:
     - target: {fileID: 8742428119287221319, guid: 13f0c6000d3336d4dbefa2c2d058f0ad,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.0119999945
+      value: 0.0139
       objectReference: {fileID: 0}
     - target: {fileID: 8742428119287221319, guid: 13f0c6000d3336d4dbefa2c2d058f0ad,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.019
+      value: -0.009
       objectReference: {fileID: 0}
     - target: {fileID: 8742428119287221319, guid: 13f0c6000d3336d4dbefa2c2d058f0ad,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.3207001
+      value: -0.2506
       objectReference: {fileID: 0}
     - target: {fileID: 8742428119287221319, guid: 13f0c6000d3336d4dbefa2c2d058f0ad,
         type: 3}
@@ -2000,32 +2000,32 @@ PrefabInstance:
     - target: {fileID: -1564261159322371028, guid: 5149c544a067b1e4aa89f0c01ae5f367,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.10700007
+      value: 0.06704518
       objectReference: {fileID: 0}
     - target: {fileID: -1564261159322371028, guid: 5149c544a067b1e4aa89f0c01ae5f367,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.28500003
+      value: 0.17857814
       objectReference: {fileID: 0}
     - target: {fileID: -1564261159322371028, guid: 5149c544a067b1e4aa89f0c01ae5f367,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.013000005
+      value: 0.0081456695
       objectReference: {fileID: 0}
     - target: {fileID: -1564261159322371028, guid: 5149c544a067b1e4aa89f0c01ae5f367,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.056
+      value: -0.0354
       objectReference: {fileID: 0}
     - target: {fileID: -1564261159322371028, guid: 5149c544a067b1e4aa89f0c01ae5f367,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.017
+      value: -0.008999995
       objectReference: {fileID: 0}
     - target: {fileID: -1564261159322371028, guid: 5149c544a067b1e4aa89f0c01ae5f367,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.011877
       objectReference: {fileID: 0}
     - target: {fileID: -1564261159322371028, guid: 5149c544a067b1e4aa89f0c01ae5f367,
         type: 3}
@@ -2203,7 +2203,7 @@ GameObject:
   - component: {fileID: 2079858407}
   - component: {fileID: 2079858406}
   - component: {fileID: 2079858405}
-  - component: {fileID: 2079858404}
+  - component: {fileID: 2079858408}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -2211,25 +2211,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2079858404
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2079858403}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 2079858406}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: qrcode9
-  mDatasetName: Vuforia/QRCodeScene1.xml
-  mCastedBehaviour: {fileID: 2079858406}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &2079858405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2300,7 +2281,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 2079858404}
+  mPreview: {fileID: 2079858408}
 --- !u!4 &2079858407
 Transform:
   m_ObjectHideFlags: 0
@@ -2310,15 +2291,34 @@ Transform:
   m_GameObject: {fileID: 2079858403}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -0.28, y: 0.019, z: 0}
+  m_LocalPosition: {x: -0.2801, y: 0.009, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1581015366}
   - {fileID: 1858833868}
+  - {fileID: 1581015366}
   - {fileID: 1707174284}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &2079858408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2079858403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 2079858406}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: qrcode9
+  mDatasetName: Vuforia/QRCodeScene1.xml
+  mCastedBehaviour: {fileID: 2079858406}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &2142477559
 GameObject:
   m_ObjectHideFlags: 0
