@@ -1072,7 +1072,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 6
+          m_IntArgument: 11
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3065,22 +3065,22 @@ PrefabInstance:
     - target: {fileID: 5239514950936203990, guid: 101f70e226d5c67459d791d38abf2561,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 5239514950936203990, guid: 101f70e226d5c67459d791d38abf2561,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.7071068
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5239514950936203990, guid: 101f70e226d5c67459d791d38abf2561,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.7071068
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5239514950936203990, guid: 101f70e226d5c67459d791d38abf2561,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 5239514950936203990, guid: 101f70e226d5c67459d791d38abf2561,
         type: 3}
