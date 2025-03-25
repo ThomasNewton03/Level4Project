@@ -35,37 +35,30 @@ This is an example of how to list things you need to use the software and how to
 
 Follow the steps below to run a local copy on your device:
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the GitHub repository
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/ThomasNewton03/Level4Project.git
    ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
-   ```
+2. Download the same version of Unity as used in the project, which will be 10.28.4. Make sure to also download Vuforia Engine.
 
+3. In Unity, click on "Window" and then "Package Manager" to ensure that all the necessary dependencies are downloaded. Check that you have the following packages installed:
+   - Vuforia Engine
+   - XR Plugin Management
+   - AR Foundation
+   - AR Core
+   - Google ARCore XR Plugin
+
+4. In the Player Settings, ensure that the Minimum API Level is set to Android 8.0 'Oreo' (API Level 26) or above, and Graphics API is set to OpenGLES3.
+   
+5. In the top left corner of the screen, click on "File" and then "Build Settings". Under "Platform", select "Android" and then "Switch Platform".
+
+6. To build the project, return to "Build Settings" and connect your device to your computer. Under "Run Device", select your device and then click "Build & Run". This will compile the project and transfer it to your phone.
+
+7. Once the application has appeared on your phone you will be ready to go. If you have any issues with your camera, go to your device's settings page and change the access permissions.
+   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -80,14 +73,6 @@ Don't forget to give the project a star! Thanks again!
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-### Top contributors:
-
-<a href="https://github.com/othneildrew/Best-README-Template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=othneildrew/Best-README-Template" alt="contrib.rocks image" />
-</a>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
