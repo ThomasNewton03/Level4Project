@@ -1,33 +1,7 @@
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <ol>
-    <li>
-      <a href="#project-summary">Project Summary</a>
-      <ul>
-        <li><a href="#platforms-and-tools-used">Platforms and Tools Used</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#instructions">Instructions</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
-
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This is an augmented reality based system that presents the instructions for IKEA's KULLEN two-drawer set.  
+This is an augmented reality based system that presents the instructions for IKEA's KULLEN two-drawer set. The system incorporates Vuforia Engine's image targets tracking feature  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -47,23 +21,19 @@ Here are the frameworks and libraries that were used throughout this project:
 
 
 
-<!-- GETTING STARTED -->
-## Getting Started
+## Set Up
+To set the project up, ensure that your device has met all of the following prerequirements. Then, follow the installation steps to retrieve a local copy of the system.
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+### Prerequirements
 
-### Prerequisites
+Your device must run on Android 11, 12, 13, 14 or 15 for it to be compatible with this system.
 
+Please ensure that you have a working camera so that the image targets can be scanned.
 This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+Follow the steps below to run a local copy on your device:
 
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
