@@ -27,18 +27,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
+This is an augmented reality based system that presents the instructions for IKEA's KULLEN two-drawer set.  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -46,9 +35,13 @@ Use the `BLANK_README.md` to get started.
 
 ### Platforms and Tools Used
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+Here are the frameworks and libraries that were used throughout this project: 
 
-* [![Unity][Unity.com]][Unity-url]
+* ![Unity](https://img.shields.io/badge/Engine-Unity-000?logo=unity) https://unity.com/
+* ![C#](https://img.shields.io/badge/Language-C%23-239120?logo=csharp&logoColor=white) https://learn.microsoft.com/en-us/dotnet/csharp/
+* ![ShaderLab](https://img.shields.io/badge/Shader-ShaderLab-FF4088) https://docs.unity3d.com/Manual/SL-Reference.html
+* ![HLSL](https://img.shields.io/badge/Shader-HLSL-FF4032) https://learn.microsoft.com/en-us/windows/win32/direct3dhlsl/dx-graphics-hlsl
+* ![Vuforia](https://img.shields.io/badge/AR-Vuforia-FF8830) https://developer.vuforia.com/home
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
