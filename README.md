@@ -55,6 +55,10 @@ Follow the steps below to run a local copy on your device:
 6. To build the project, return to "Build Settings" and connect your device to your computer. Under "Run Device", select your device and then click "Build & Run". This will compile the project and transfer it to your phone.
 
 7. Once the application has appeared on your phone you will be ready to go. If you have any issues with your camera, go to your device's settings page and change the access permissions.
+
+8. If the system fails to resolve the Tarball package [com.ptc.vuforia.engine], ensure that it is correctly set up in the Packages folder. This package works consistently, however after being unzipped it can sometimes fail to be detected
+
+9. If there are any further issues with code packages or Vuforia, go to the github link: https://github.com/ThomasNewton03/Level4Project. Under code, click HTTPS and copy the link. In terminal, paste the git clone "https link" to save the project. In Unity Hub, add this project by clicking Add, and then Add project from disk. Click inside the folder and add Level4Project to Unity. Then work your way from step 5 to build the system
    
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
